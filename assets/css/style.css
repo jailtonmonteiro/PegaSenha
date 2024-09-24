@@ -1,0 +1,34 @@
+:root {
+    --primary-color: #040D12;
+    --secondary-color: #183D3D;
+    --tertiary-color: #5C8374;
+    --quartary-color: #93B1A6;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: var(--primary-color);
+}
+
+h1 {
+    color: var(--quartary-color);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.checkbox__complex {
+    color: var(--quartary-color);
+    font-size: 1.2rem;
+    display: flex;
+    margin: 0 25vw;
+    gap: 10px;
+}
+
+#senha {
+    color: var(--quartary-color);
+}

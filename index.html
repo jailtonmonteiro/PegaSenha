@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PegaSenha</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <h1>Gerador de Senhas</h1>
+
     <p id="senha"></p>
-    <p id="numero"></p>
 
-    <input type="checkbox" id="checknum"> Numeros<br>
-    <input type="checkbox" id="checkmai"> Maiusculas<br>
-    <input type="checkbox" id="checkmin"> Minusculas<br>
-    <input type="checkbox" id="checksim"> Símbolos<br>
-
-    <input type="number" name="comprimento" id="comprimento">
+    <div class="checkbox__complex">
+      <input type="checkbox" id="checknum" /> Numeros
+      <input type="checkbox" id="checkmai" /> Maiusculas
+      <input type="checkbox" id="checkmin" /> Minusculas
+      <input type="checkbox" id="checksim" /> Símbolos
+    </div>
+    <input type="number" name="comprimento" id="comprimento" />
     <button id="gerar">Nova Senha</button>
 
     <script defer type="text/javascript" src="./assets/js/app.js"></script>
