@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PegaSenha</title>
+    <title>GeraSenha</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <h1>Gerador de Senhas</h1>
 
-    <p id="senha"></p>
+    <p id="senha">Selecione uma complexidade</p>
 
     <div class="checkbox__complex">
       <label> <input type="checkbox" id="checknum" /> Numeros </label>
@@ -18,9 +18,15 @@
       <label> <input type="checkbox" id="checkmin" /> Minusculas </label>
       <label> <input type="checkbox" id="checksim" /> Símbolos </label>
     </div>
-    <input type="number" name="comprimento" id="comprimento" min="3" />
-    <button id="gerar">Nova Senha</button>
+    <input type="number" name="comprimento" id="comprimento" min="4" />
+    <input type="range" id="range" min="4" max="20" />
 
+    <div class="botao">
+      <button id="gerar">Nova Senha</button>
+      <button id="copiar">Copiar Senha</button>
+    </div>
+
+    <p id="feedback"></p>
     <script defer type="text/javascript" src="./assets/js/app.js"></script>
   </body>
 </html>
