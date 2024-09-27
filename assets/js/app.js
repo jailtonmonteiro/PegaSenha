@@ -1,6 +1,6 @@
-const textComprimento = "Comprimento deve ser entre 4 e 20 caracteres";
+const textComprimento = "Comprimento deve ser entre 4 e 20 caracteres!";
 const textSucesso = "Senha gerada com sucesso!";
-const textCopia = "Senha copiada para área de tranferência";
+const textCopia = "Senha copiada para área de tranferência!";
 const textCheck = "Selecione um caracter";
 
 document.getElementById("gerar").addEventListener("click", function () {
